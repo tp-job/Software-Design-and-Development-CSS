@@ -518,7 +518,6 @@ nav .button {
 }
 
 nav .button:hover {
-    border: 2px solid white;
     border-radius: 9999px;
     padding: 10px 15px;
     background: white;
