@@ -231,9 +231,9 @@ div > p {
 3. เปลี่ยนสีพื้นหลังของเมนู
 
 ### ผลการทดลอง
+---
 โค้ด html
 ```html
-<!-- html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -477,25 +477,26 @@ div > p {
 ```
 โค้ด css
 ```css
-/* css */
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --color-1: linear-gradient(to right, #e01249, #c81e84, #7c26f5); 
-    --kanit-font: "Kanit", serif;
+    --roboto-font: "Roboto", serif;
+    --montserrat-font: "Montserrat", serif;
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--kanit-font);
 }
 
 nav {
-    background: var(--color-1);
     display: flex;
+    background: var(--color-1);
     height: 80px;
+    font-family: var(--montserrat-font);
+    font-weight: 600;
     position: sticky;
     top: 0;
     backdrop-filter: blur(45px);
@@ -503,10 +504,10 @@ nav {
 
 nav .logo {
     border-radius: 9999px;
+    padding: 15px;
     margin-left: 30px;
     width: 80px;
     height: 80px;
-    padding: 15px;
 }
 
 nav .button {
@@ -519,7 +520,7 @@ nav .button {
 
 nav .button:hover {
     border-radius: 9999px;
-    padding: 10px 15px;
+    padding: 15px;
     background: white;
     color: #e01249;
     cursor: pointer;
@@ -527,15 +528,10 @@ nav .button:hover {
 }
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
-แบบดังดิม
-![image](https://github.com/user-attachments/assets/65c8cb66-8f01-42d8-b2f8-7743490239e5)
-เมื่อมีการสัมผัส / hover
-![image](https://github.com/user-attachments/assets/a871105f-c6e8-4378-bf2b-1f390ec129c6)
-เมื่อเลื่อนลงข้างล่าง
-![image](https://github.com/user-attachments/assets/ca7420be-a384-46d8-95fc-9d1bdf1bb527)
+gif
+![css_lab1_1](https://github.com/user-attachments/assets/2c260cef-e6b9-4326-bec9-95411ad4c1f9)
 
-
-
+---
 
 [](#การทดลองที่-3-การจัดการสีและพื้นหลัง)
 ## การทดลองที่ 3: การจัดการสีและพื้นหลัง
