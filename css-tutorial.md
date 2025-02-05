@@ -231,8 +231,300 @@ div > p {
 3. เปลี่ยนสีพื้นหลังของเมนู
 
 ### ผลการทดลอง
+โค้ด html
 ```html
-[วางโค้ดที่นี่]
+<!-- html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../../basic_css/style1.css">
+</head>
+<body>
+    <nav id="nav">
+        <img src="./images/logo.jpg" alt="logo" class="logo">
+        <a href="index.html" class="button">Home</a>
+        <a href="pages/about.html" class="button">About</a>
+        <a href="pages/contact.html" class="button">Contact Us</a>
+    </nav>
+    <h1>Gallery</h1>
+    <section>
+        <figure>
+            <a href="images/gallery/product1.png">
+                <img src="images/gallery/product1.png" alt="product1" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>TITLE:</strong>
+                    DIANA & JACK
+                </p>
+                <p>
+                    <strong>AUTHOR:</strong>
+                    taipa sipipong
+                </p>
+                <p>
+                    <strong>PUBLISHER:</strong>
+                    Panya Thai
+                </p>
+                <p>
+                    <strong>CATEGORY:</strong>
+                    Fantasy
+                </p>
+                <p>
+                    <strong>PRICE:</strong>
+                    $12.99 / 420 THB
+                </p>
+            </figcaption>
+        </figure>
+        <figure>
+            <a href="images/gallery/product2.png">
+                <img src="images/gallery/product2.png" alt="product1" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>TITLE:</strong>
+                    CHRISTMAS
+                </p>
+                <p>
+                    <strong>AUTHOR:</strong>
+                    Prachya Aksaranon
+                </p>
+                <p>
+                    <strong>PUBLISHER:</strong>
+                    Navatras Publishing
+                </p>
+                <p>
+                    <strong>CATEGORY:</strong>
+                    CLASSICS
+                </p>
+                <p>
+                    <strong>PRICE:</strong>
+                    $12.99 / 420 THB
+                </p>
+            </figcaption>
+        </figure>
+        <figure>
+            <a href="images/gallery/product3.png">
+                <img src="images/gallery/product3.png" alt="product1" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>TITLE:</strong>
+                    TERE & TONY
+                </p>
+                <p>
+                    <strong>AUTHOR:</strong>
+                    Waranya Sirisuk
+                </p>
+                <p>
+                    <strong>PUBLISHER:</strong>
+                    Withee Books
+                </p>
+                <p>
+                    <strong>CATEGORY:</strong>
+                    FANTASY
+                </p>
+                <p>
+                    <strong>PRICE:</strong>
+                    $12.99 / 420 THB
+                </p>
+            </figcaption>
+        </figure>
+        <figure>
+            <a href="images/gallery/product4.png">
+                <img src="images/gallery/product4.png" alt="product1" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>TITLE:</strong>
+                    CELTIC TALES
+                </p>
+                <p>
+                    <strong>AUTHOR:</strong>
+                    Anawin Pipattanakit
+                </p>
+                <p>
+                    <strong>PUBLISHER:</strong>
+                    Sangdao Publishing
+                </p>
+                <p>
+                    <strong>CATEGORY:</strong>
+                    SPIRITUALITY & MINDFULNESS
+                </p>
+                <p>
+                    <strong>PRICE:</strong>
+                    $12.99 / 420 THB
+                </p>
+            </figcaption>
+        </figure>
+        <figure>
+            <a href="images/gallery/product5.png">
+                <img src="images/gallery/product5.png" alt="product1" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>TITLE:</strong>
+                    THE LORD OF THE KINGS
+                </p>
+                <p>
+                    <strong>AUTHOR:</strong>
+                    Pitchada Wattanakiet
+                </p>
+                <p>
+                    <strong>PUBLISHER:</strong>
+                    Jintasill Publishing
+                </p>
+                <p>
+                    <strong>CATEGORY:</strong>
+                    FANTASY
+                </p>
+                <p>
+                    <strong>PRICE:</strong>
+                    $12.99 / 420 THB
+                </p>
+            </figcaption>
+        </figure>
+        <figure>
+            <a href="images/gallery/product6.png">
+                <img src="images/gallery/product6.png" alt="product1" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>TITLE:</strong>
+                    SIMPLE & MINIMALIST
+                </p>
+                <p>
+                    <strong>AUTHOR:</strong>
+                    Nakarin Kulpiya
+                </p>
+                <p>
+                    <strong>PUBLISHER:</strong>
+                    Dandin Books
+                </p>
+                <p>
+                    <strong>CATEGORY:</strong>
+                    SELF-HELP
+                </p>
+                <p>
+                    <strong>PRICE:</strong>
+                    $12.99 / 420 THB
+                </p>
+            </figcaption>
+        </figure>
+        <figure>
+            <a href="images/gallery/product7.png">
+                <img src="images/gallery/product7.png" alt="product1" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>TITLE:</strong>
+                    MUTED COLOR POSTER
+                </p>
+                <p>
+                    <strong>AUTHOR:</strong>
+                    Supakorn Arayatham
+                </p>
+                <p>
+                    <strong>PUBLISHER:</strong>
+                    Montra Publishing
+                </p>
+                <p>
+                    <strong>CATEGORY:</strong>
+                    NON-FICTION
+                </p>
+                <p>
+                    <strong>PRICE:</strong>
+                    $12.99 / 420 THB
+                </p>
+            </figcaption>
+        </figure>
+        <figure>
+            <a href="images/gallery/product8.png">
+                <img src="images/gallery/product8.png" alt="product1" width="200"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>TITLE:</strong>
+                    MODERN ABSTRACT
+                </p>
+                <p>
+                    <strong>AUTHOR:</strong>
+                    Charuwan Rattanasombat
+                </p>
+                <p>
+                    <strong>PUBLISHER:</strong>
+                    Aruntat Publishing
+                </p>
+                <p>
+                    <strong>CATEGORY:</strong>
+                    BUSINESS & MINDFULNESS
+                </p>
+                <p>
+                    <strong>PRICE:</strong>
+                    $12.99 / 420 THB
+                </p>
+            </figcaption>
+        </figure>
+    </section>
+    
+    <a href="#nav" class="button">กลับด้านบน</a>
+</body>
+</html>
+```
+โค้ด css
+```css
+/* css */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--kanit);
+}
+:root {
+    --color_1: linear-gradient(to right, #e01249, #c81e84, #7c26f5); 
+    --kanit: "Kanit", serif;
+}
+
+nav {
+    background: var(--color_1);
+    display: flex;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(45px);
+}
+
+nav .logo {
+    border-radius: 9999px;
+    margin-left: 30px;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+}
+
+nav .button {
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px 20px;
+    padding: 15px;
+    color: white;
+}
+
+nav .button:hover {
+    border: 2px solid white;
+    border-radius: 9999px;
+    padding: 10px 15px;
+    background: white;
+    color: #e01249;
+    cursor: pointer;
+    transition: .3s;
+}
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
 
