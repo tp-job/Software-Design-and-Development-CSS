@@ -527,6 +527,14 @@ nav .button:hover {
 }
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+แบบดังดิม
+![image](https://github.com/user-attachments/assets/65c8cb66-8f01-42d8-b2f8-7743490239e5)
+เมือมีการสัมผัส / hover
+![image](https://github.com/user-attachments/assets/a871105f-c6e8-4378-bf2b-1f390ec129c6)
+เมื่อเลื่อนลงข้างล่าง
+![image](https://github.com/user-attachments/assets/ca7420be-a384-46d8-95fc-9d1bdf1bb527)
+
+
 
 
 [](#การทดลองที่-3-การจัดการสีและพื้นหลัง)
