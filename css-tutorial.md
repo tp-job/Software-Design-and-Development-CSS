@@ -480,19 +480,20 @@ div > p {
 /* css */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+    --color-1: linear-gradient(to right, #e01249, #c81e84, #7c26f5); 
+    --kanit-font: "Kanit", serif;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--kanit);
-}
-:root {
-    --color_1: linear-gradient(to right, #e01249, #c81e84, #7c26f5); 
-    --kanit: "Kanit", serif;
+    font-family: var(--kanit-font);
 }
 
 nav {
-    background: var(--color_1);
+    background: var(--color-1);
     display: flex;
     height: 80px;
     position: sticky;
