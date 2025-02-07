@@ -499,7 +499,6 @@ nav {
     font-weight: 600;
     position: sticky;
     top: 0;
-    backdrop-filter: blur(45px);
 }
 
 nav .logo {
