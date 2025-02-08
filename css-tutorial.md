@@ -632,11 +632,581 @@ background-size: cover;
 3. เพิ่มเติมให้มี card แสดงข้อมูลสินค้า 4 รูป
 
 ### ผลการทดลอง
+โค้ด html
 ```html
-[วางโค้ดที่นี่]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../../basic_css/style1.css">
+</head>
+<body>
+    <div id="top"/>
+    <!-- nav -->
+    <nav>
+        <img src="./images/logo.jpg" alt="logo" class="logo">
+        <a href="index.html" class="button">Home</a>
+        <a href="pages/about.html" class="button">About</a>
+        <a href="pages/contact.html" class="button">Contact Us</a>
+    </nav>
+    <!-- hero -->
+    <section class="hero">
+        <div class="hero">
+            <h1 class="title">Gallery</h1>
+            <p class="subtitle">Books broaden perspectives and enhance knowledge in various fields.</p>
+        </div>
+    </section>
+    <hr>
+    <!-- main -->
+    <main>
+        <div class="card">
+            <div class="card-left">
+                <div class="img">
+                    <a href="images/gallery/product1.png">
+                        <img src="images/gallery/product1.png" alt="product1" width="200"> 
+                    </a>
+                </div>
+            </div>
+            <div class="card-center">
+                <div class="passage">
+                    <p>
+                        <strong>TITLE:</strong>
+                        DIANA & JACK
+                    </p>
+                    <p>
+                        <strong>AUTHOR:</strong>
+                        taipa sipipong
+                    </p>
+                    <p>
+                        <strong>PUBLISHER:</strong>
+                        Panya Thai
+                    </p>
+                    <p>
+                        <strong>CATEGORY:</strong>
+                        Fantasy
+                    </p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="button">
+                    <p>$12.99 / 420 THB</p>
+                    <div class="cart">
+                        <h3>Shop</h3>
+                        <img src="images/cart.png" alt="cart">
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="img">
+                    <a href="images/gallery/product2.png">
+                        <img src="images/gallery/product2.png" alt="product2" width="200"> 
+                    </a>
+                </div>
+            </div>
+            <div class="card-center">
+                <div class="passage">
+                    <p>
+                        <strong>TITLE:</strong>
+                        CHRISTMAS
+                    </p>
+                    <p>
+                        <strong>AUTHOR:</strong>
+                        Prachya Aksaranon
+                    </p>
+                    <p>
+                        <strong>PUBLISHER:</strong>
+                        Navatras Publishing
+                    </p>
+                    <p>
+                        <strong>CATEGORY:</strong>
+                        CLASSICS
+                    </p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="button">
+                    <p>$12.99 / 420 THB</p>
+                    <div class="cart">
+                        <h3>Shop</h3>
+                        <img src="images/cart.png" alt="cart">
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="img">
+                    <a href="images/gallery/product3.png">
+                        <img src="images/gallery/product3.png" alt="product3" width="200"> 
+                    </a>
+                </div>
+            </div>
+            <div class="card-center">
+                <div class="passage">
+                    <p>
+                        <strong>TITLE:</strong>
+                        TERE & TONY
+                    </p>
+                    <p>
+                        <strong>AUTHOR:</strong>
+                        Waranya Sirisuk
+                    </p>
+                    <p>
+                        <strong>PUBLISHER:</strong>
+                        Withee Books
+                    </p>
+                    <p>
+                        <strong>CATEGORY:</strong>
+                        FANTASY
+                    </p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="button">
+                    <p>$12.99 / 420 THB</p>
+                    <div class="cart">
+                        <h3>Shop</h3>
+                        <img src="images/cart.png" alt="cart">
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="img">
+                    <a href="images/gallery/product4.png">
+                        <img src="images/gallery/product4.png" alt="product4" width="200"> 
+                    </a>
+                </div>
+            </div>
+            <div class="card-center">
+                <div class="passage">
+                    <p>
+                        <strong>TITLE:</strong>
+                        CELTIC TALES
+                    </p>
+                    <p>
+                        <strong>AUTHOR:</strong>
+                        Anawin Pipattanakit
+                    </p>
+                    <p>
+                        <strong>PUBLISHER:</strong>
+                        Sangdao Publishing
+                    </p>
+                    <p>
+                        <strong>CATEGORY:</strong>
+                        SPIRITUALITY & MINDFULNESS
+                    </p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="button">
+                    <p>$12.99 / 420 THB</p>
+                    <div class="cart">
+                        <h3>Shop</h3>
+                        <img src="images/cart.png" alt="cart">
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="img">
+                    <a href="images/gallery/product5.png">
+                        <img src="images/gallery/product5.png" alt="product5" width="200"> 
+                    </a>
+                </div>
+            </div>
+            <div class="card-center">
+                <div class="passage">
+                    <p>
+                        <strong>TITLE:</strong>
+                        THE LORD OF THE KINGS
+                    </p>
+                    <p>
+                        <strong>AUTHOR:</strong>
+                        Pitchada Wattanakiet
+                    </p>
+                    <p>
+                        <strong>PUBLISHER:</strong>
+                        Jintasill Publishing
+                    </p>
+                    <p>
+                        <strong>CATEGORY:</strong>
+                        FANTASY
+                    </p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="button">
+                    <p>$12.99 / 420 THB</p>
+                    <div class="cart">
+                        <h3>Shop</h3>
+                        <img src="images/cart.png" alt="cart">
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="img">
+                    <a href="images/gallery/product6.png">
+                        <img src="images/gallery/product6.png" alt="product6" width="200"> 
+                    </a>
+                </div>
+            </div>
+            <div class="card-center">
+                <div class="passage">
+                    <p>
+                        <strong>TITLE:</strong>
+                        SIMPLE & MINIMALIST
+                    </p>
+                    <p>
+                        <strong>AUTHOR:</strong>
+                        Nakarin Kulpiya
+                    </p>
+                    <p>
+                        <strong>PUBLISHER:</strong>
+                        Dandin Books
+                    </p>
+                    <p>
+                        <strong>CATEGORY:</strong>
+                        SELF-HELP
+                    </p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="button">
+                    <p>$12.99 / 420 THB</p>
+                    <div class="cart">
+                        <h3>Shop</h3>
+                        <img src="images/cart.png" alt="cart">
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="img">
+                    <a href="images/gallery/product7.png">
+                        <img src="images/gallery/product7.png" alt="product7" width="200"> 
+                    </a>
+                </div>
+            </div>
+            <div class="card-center">
+                <div class="passage">
+                    <p>
+                        <strong>TITLE:</strong>
+                        MUTED COLOR POSTER
+                    </p>
+                    <p>
+                        <strong>AUTHOR:</strong>
+                        Supakorn Arayatham
+                    </p>
+                    <p>
+                        <strong>PUBLISHER:</strong>
+                        Montra Publishing
+                    </p>
+                    <p>
+                        <strong>CATEGORY:</strong>
+                        NON-FICTION
+                    </p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="button">
+                    <p>$12.99 / 420 THB</p>
+                    <div class="cart">
+                        <h3>Shop</h3>
+                        <img src="images/cart.png" alt="cart">
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <div class="img">
+                    <a href="images/gallery/product8.png">
+                        <img src="images/gallery/product8.png" alt="product8" width="200"> 
+                    </a>
+                </div>
+            </div>
+            <div class="card-center">
+                <div class="passage">
+                    <p>
+                        <strong>TITLE:</strong>
+                        MODERN ABSTRACT
+                    </p>
+                    <p>
+                        <strong>AUTHOR:</strong>
+                        Charuwan Rattanasombat
+                    </p>
+                    <p>
+                        <strong>PUBLISHER:</strong>
+                        Aruntat Publishing
+                    </p>
+                    <p>
+                        <strong>CATEGORY:</strong>
+                        BUSINESS & MINDFULNESS
+                    </p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="button">
+                    <p>$12.99 / 420 THB</p>
+                    <div class="cart">
+                        <h3>Shop</h3>
+                        <img src="images/cart.png" alt="cart">
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="button">
+            <a href="#top">
+                <img src="images/arrow-top.png" alt="arrow-top">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
+```
+โค้ด css
+```
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-gradient-1: linear-gradient(to right, #e01249, #c81e84, #7c26f5); 
+    --color-gradient-2: linear-gradient(to right, #f52095, #ea4cff, #984fff);
+    --color-gradient-3: linear-gradient(to right, #20f5d9, #4c7cff, #d455d8);
+    --color-gradient-4: linear-gradient(to right, #f5e616, #20f80d, #ff4f84);
+    --color-pinkish-red: #d10c41;
+    --color-white: #fff;
+    --color-card: #f4f4f4;
+    --color-tr: #b6b6b6;
+    --color-th: #7a7a7a;
+    --color-shadow: #8a8a8a;
+    --roboto-font: "Roboto", serif;
+    --montserrat-font: "Montserrat", serif;
+    --h1-size: 64px;
+    --h3-size: 52px;
+    --a-size: 24px;
+    --p-size: 18px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-white);
+    height: auto;
+}
+
+/* nav */
+nav {
+    display: flex;
+    background: var(--color-gradient-1);
+    height: 80px;
+    font-family: var(--montserrat-font);
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+}
+
+nav .logo {
+    border-radius: 9999px;
+    padding: 15px;
+    margin-left: 30px;
+    width: 80px;
+    height: 80px;
+}
+
+nav .button {
+    text-decoration: none;
+    font-size: var(--a-size);
+    margin: 10px 20px;
+    padding: 15px;
+    color: var(--color-white);
+}
+
+nav .button:hover {
+    border-radius: 9999px;
+    padding: 15px;
+    background: var(--color-white);
+    color: var(--color-pinkish-red);
+    cursor: pointer;
+    transition: .4s;
+}
+
+/* section */
+section .hero{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+section .title {
+    margin: 20px 40px;
+    font-family: var(--roboto-font);
+    font-size: var(--h1-size);
+    background: var(--color-gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section .subtitle {
+    margin: 20px 40px;
+    font-family: var(--roboto-font);
+    font-size: var(--p-size);
+    background: var(--color-gradient-2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    border: none;
+    border-radius: 9999px;
+    height: 6px ;
+    margin-left: 70px;
+    width: 90%;
+    background: var(--color-gradient-3);
+}
+
+/* main */
+main .card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 20px;
+    padding: 40px 25px;
+    margin-left: 650px;
+    margin-top: 60px;
+    width: 260px;
+    height: 360px;
+    gap: 10px;
+    box-shadow: 10px 10px 20px 0 var(--color-shadow);
+    background: var(--color-card);
+    text-align: start;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+main .card:hover {
+    margin: 60px 110px;
+    padding-left: 50px;
+    gap: 30px;
+    width: 85%;
+    transition: margin-left .5s ease, width .5s ease;
+}
+
+main .img {
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+main .passage {
+    display: grid;
+    grid-template-rows: auto;
+    width: 400px;
+    margin: 10px 40px;
+    padding-left: 100px;
+    font-size: var(--p-size);
+    gap: 10px;
+}
+
+/* card center */
+.card-center .passage p {
+    margin-bottom: 40px;
+}
+
+/* card right */
+.card-right {
+    padding-left: 20px;
+}
+
+.card-right .button p{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+.card-right img {
+    height: 40px;
+    width: 40px;
+}
+
+.card-right .cart {
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    height: 50px;
+    width: 180px;
+    padding-left: 50px;
+    padding-top: 4px;
+    margin-left: 70px;
+    background: var(--color-blue);
+    background: var(--color-gradient-3);
+    color: var(--color-white);
+}
+
+.card-right .cart:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.card-right .cart h3 {
+    padding-top: 10px;
+}
+
+/* footer */
+footer {
+    text-align: end;
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+}
+
+footer img {
+    border-radius: 9999px;
+    background: var(--color-card);
+    box-shadow: 10px 10px 30px 0 var(--color-shadow);
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-th);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color-tr);
+}
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
-
+![css_lab2_1](https://github.com/user-attachments/assets/894f3cb5-af9c-4e28-a16e-0e0573449951)
+---
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
 ## การทดลองที่ 4: การจัดการขนาดและระยะห่าง
 
