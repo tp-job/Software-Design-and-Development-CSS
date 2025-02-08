@@ -1054,7 +1054,7 @@ nav .button:hover {
 }
 
 /* section */
-section .hero{
+section .hero {
     text-align: center;
     margin-bottom: 60px;
 }
