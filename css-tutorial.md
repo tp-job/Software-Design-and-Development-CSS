@@ -1087,7 +1087,8 @@ hr {
 }
 
 /* main */
-main .card {
+/* card */
+.card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 20px;
@@ -1104,7 +1105,7 @@ main .card {
     cursor: pointer;
 }
 
-main .card:hover {
+.card:hover {
     margin: 60px 110px;
     padding-left: 50px;
     gap: 30px;
@@ -1112,25 +1113,23 @@ main .card:hover {
     transition: margin-left .5s ease, width .5s ease;
 }
 
-main .img {
+/* card left */
+.card-left .img {
     display: flex;
     margin-bottom: 30px;
     text-align: center;
 }
 
-main .passage {
+/* card center */
+.card-center .passage p {
     display: grid;
     grid-template-rows: auto;
     width: 400px;
     margin: 10px 40px;
+    margin-bottom: 40px;
     padding-left: 100px;
     font-size: var(--p-size);
     gap: 10px;
-}
-
-/* card center */
-.card-center .passage p {
-    margin-bottom: 40px;
 }
 
 /* card right */
