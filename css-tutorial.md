@@ -1138,7 +1138,7 @@ main .passage {
     padding-left: 20px;
 }
 
-.card-right .button p{
+.card-right .button p {
     margin-top: 60px;
     margin-bottom: 40px;
     margin-left: 100px;
