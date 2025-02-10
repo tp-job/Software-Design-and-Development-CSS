@@ -1991,6 +1991,7 @@ font-weight: bold;
 2. ปรับแต่งรูปแบบ สีและขนาด font
 
 ### ผลการทดลอง
+โค้ด html
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -2337,6 +2338,7 @@ font-weight: bold;
 </body>
 </html>
 ```
+โค้ด css
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
